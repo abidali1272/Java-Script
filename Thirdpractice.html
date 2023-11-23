@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"> java script fucntion</h1>
+    
+    <button onclick="hello()">
+
+
+    </button>
+
+
+    <script>
+
+        var a;
+
+        function hello(a)
+        {
+            document.write("hello bro"+a);
+        }
+
+        function helloo(abid,khan)
+        {
+            document.write("hello bro"+" "+abid+khan);
+        }
+
+        function hellooo(a,b)
+        {
+            var c = a + b;
+
+            return c;
+        }
+
+        
+        hello(100+"<br>");
+        helloo("abid","khan"+"<br>");
+
+        var v=  hellooo("shabbir","khan"+"<br>");
+        document.write(v);
+
+    </script>
+
+
+        <script>
+
+            // arrays in java script
+
+            var a=[10,20,30,40];
+            document.write(a+"<br>");
+
+            for( var i=0; i<=3; i++)
+            {
+                document.write(a[0]+"<br>"); 
+            }
+
+            var b=[null,"abid",true]
+
+            for( var i=0; i<=2; i++)
+            {
+                document.write(b[i]+"<br>"); 
+            }
+
+            var c= new Array(3);
+                c[0]=10;
+                c[1]=null;
+                c[2]="abid";
+                c[3]=true;
+
+                for( var i=0; i<=3; i++)
+            {
+                document.write(c[i]+"<br>"); 
+            }
+
+            // get valaue from users
+
+            var d= new Array(3);
+
+            for( var i=0; i<=3; i++)
+            {
+              //d[i]=  prompt("Enter youre value");
+
+            }
+
+            for( var i=0; i<=3; i++)
+            {
+              document.write(d[i])
+
+            }
+            document.write("<br>"); 
+            document.write("<br>"); 
+            document.write("<br>"); 
+
+            var mul=[
+                        [1,"abid",true],
+                        [2,"abid",true],
+                        [3,"abid",true]
+                    ]
+
+                    for(i=0; i<mul.length; i++)
+                    {
+                        for(j=0; j<mul[i].length; j++)
+                        {
+                            document.write(mul[i][j]+"<br>"); 
+                        }
+
+                    }
+
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
